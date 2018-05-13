@@ -2,12 +2,15 @@
 
 A RESTful local daemonset (similiar to Kubernetes, but local).
 
+![Deployment](images/deployment.png)
+
 All data is held in memory, all transfer is via JSON.
 
 ## Features
 
 - persists state to a local configuration file
 - uses daemon __processes__
+- linux-based
  
 ## Installation
 
