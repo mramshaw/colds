@@ -12,6 +12,29 @@ All data is held in memory, all transfer is via JSON.
 - uses daemon __processes__
 - linux-based
  
+## Prerequisites
+
+- __dep__ is required
+
+This is the latest Go dependency manager (until `vgo` arrives).
+
+#### Installation
+
+OS/X:
+
+    $ brew install dep
+    $ brew upgrade dep
+
+Install script:
+
+    $ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
+
+go get:
+
+    $ go get -u github.com/golang/dep/cmd/dep
+
+For further details, please refer to the [documentation](https://github.com/golang/dep).
+
 ## Installation
 
 - __Go__ is required (version 1.10 or later)
