@@ -33,7 +33,7 @@ go get:
 
     $ go get -u github.com/golang/dep/cmd/dep
 
-For further details, please refer to the [documentation](https://github.com/golang/dep).
+For further details on installing `dep`, please refer to the [documentation](https://github.com/golang/dep).
 
 ## Installation
 
