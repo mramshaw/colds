@@ -11,6 +11,11 @@ All data is held in memory, all transfer is via JSON.
 - persists state to a local configuration file
 - uses daemon __processes__
 - linux-based
+
+Why __processes__ rather than __goroutines__ or __threads__?
+For memory and durability reasons: process memory is safer than
+shared threadspace memory, and process crashes will be local
+whereas thread crashes will affect the entire process.
  
 ## Prerequisites
 
